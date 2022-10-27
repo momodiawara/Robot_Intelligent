@@ -1,0 +1,68 @@
+ #root {
+      -fx-background-image: url('background.jpg');
+      -fx-background-size: 800 600;
+    }
+
+
+    #main {
+      -fx-background-image: url('background.jpg');
+      -fx-background-size: 600 400;
+    }
+
+    #exit {
+    -fx-font-size: 20;
+    -fx-text-fill: rgb(255,160,122);
+    -fx-width: 50;
+    -fx-border-color: rgb(255,160,122);
+    -fx-background-color:rgb(139,0,0);
+    /*-fx-border-radius: 5;*/
+    -fx-font: bold italic 20pt "Impact";
+    }
+
+    #hint {
+    -fx-font-size: 10;
+    -fx-text-fill: rgb(255,160,122);
+    -fx-width: 50;
+    -fx-border-color: rgb(255,160,122);
+    -fx-background-color:rgb(139,0,0);
+    /*-fx-border-radius: 5;*/
+    -fx-font: bold italic 15pt "Impact";
+    }
+
+  #submit{
+    -fx-text-fill: rgb(255,160,122);
+    -fx-width: 50;
+    -fx-border-color: rgb(255,160,122);
+    -fx-background-color:rgb(139,0,0);
+    /*-fx-border-radius: 5;*/
+    -fx-font: bold italic 20pt "Impact";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+  }
+
+    #label2 {
+   -fx-font-family: "Impact";
+   -fx-font-size: 20;
+   -fx-text-fill: rgb(255,160,122);
+   -fx-padding: 1,1,1,1;
+  }
+
+  #label3 {
+   -fx-font-family: "Impact";
+   -fx-font-size: 20;
+   -fx-text-fill: rgb(255,160,122);
+   -fx-padding: 1,1,1,1;
+  }
+
+  #label4 {
+   -fx-font-family: "Impact";
+   -fx-font-size: 20;
+   -fx-text-fill: rgb(255,160,122);
+   -fx-padding: 1,1,1,1;
+  }
+
+  #instru {
+   -fx-font-family: "Impact";
+   -fx-font-size: 22;
+   -fx-text-fill: rgb(255,160,122);
+   -fx-padding: 1,1,1,1;
+  }
